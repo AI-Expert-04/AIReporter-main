@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 bs4
 pandas==1.1.5
 streamlit==1.8.1
@@ -7,3 +8,10 @@ tensorflow
 
 # if 너의 환경이 mac os 이면 tensorflow는 별도로 설치해야 합니다.
 # conda install tensorflow
+=======
+bs4==4.11.1
+pandas==1.1.5
+tenseorflow
+streamlit==1.8.1
+matplotlib
+>>>>>>> b72c087de1864c701f64049b18cf350ecbcfa8f5
