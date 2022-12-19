@@ -2,7 +2,7 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 import ssl
 
-context = ssl._create_unverified_context()
+context = ssl.create_default_context()
 headers = {'User-Agent': 'Mozilla/5.0'}
 
 url = 'https://news.naver.com/'

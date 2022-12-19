@@ -2,7 +2,7 @@ import tensorflow as tf
 import pandas as pd
 import os
 
-data = pd.read_csv('../data/titles.csv')
+data = pd.read_csv('../data/titles_test.csv')
 titles = data['title'].values
 
 tokenizer = tf.keras.preprocessing.text.Tokenizer()
