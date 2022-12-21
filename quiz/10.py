@@ -12,6 +12,7 @@ word_count = len(tokenizer.word_index) + 1
 index_word = ['' for _ in range(word_count)]
 for k, v in tokenizer.word_index.items():
     index_word[v] = k
+    print(index_word)
 
 model = tf.keras.models.load_model('../models/AI-reporter.h5')
 
